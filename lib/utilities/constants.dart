@@ -18,3 +18,22 @@ const kButtonTextStyle = TextStyle(
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
+
+const kTextFieldInputDecoration = InputDecoration(
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(10),
+    ),
+    borderSide: BorderSide.none,
+  ),
+  fillColor: Colors.white,
+  filled: true,
+  hintText: 'Enter city name',
+  hintStyle: TextStyle(
+    color: Colors.grey,
+  ),
+  icon: Icon(
+    Icons.location_city,
+    color: Colors.white,
+  ),
+);
